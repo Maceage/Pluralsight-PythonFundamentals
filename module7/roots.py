@@ -1,5 +1,5 @@
 def sqrt(x):
-    '''Compute square roots using the method of Heron of Alexandria
+    """Compute square roots using the method of Heron of Alexandria
 
     Args:
         x: The number for which the square root is to be computed.
@@ -9,7 +9,7 @@ def sqrt(x):
 
     Raises:
         ValueError: If x is negative.
-    '''
+    """
 
     if x < 0:
         raise ValueError("Cannot compute square root of negative number {}".format(x))
