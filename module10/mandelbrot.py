@@ -16,9 +16,9 @@ def mandel(real, imag):
     x = 0
     y = 0
     for i in range(1, 257):
-        if x*x + y*y > 4.0:
+        if x * x + y * y > 4.0:
             break
-        xt = real + x*x - y*y
+        xt = real + x * x - y * y
         y = imag + 2.0 * x * y
         x = xt
 
