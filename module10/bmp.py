@@ -1,6 +1,3 @@
-__author__ = 'akarpov'
-
-
 def write_greyscale(filename, pixels):
     # each pixel is a value from 0 to 255
     height = len(pixels)

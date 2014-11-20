@@ -1,5 +1,3 @@
-__author__ = 'akarpov'
-
 import math
 
 def mandel(real, imag):
